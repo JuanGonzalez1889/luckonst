@@ -16,15 +16,15 @@ interface ImageCarouselProps {
 
 const defaultImages: CarouselImage[] = [
   {
-    src: "/casa-moderna-madera.webp",
+    src: "/techo-tradicional-2.webp",
     alt: "Casa moderna con estructura de madera y techo metálico",
   },
   {
-    src: "/estructura-techo-construccion.webp",
+    src: "/cielorraso-pvc-1.jpeg",
     alt: "Estructura de techo de madera en construcción",
   },
   {
-    src: "/casa-madera-terraza.webp",
+    src: "/imagen-3.jpg",
     alt: "Casa con estructura de madera y terraza",
   },
 ]

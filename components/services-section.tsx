@@ -56,7 +56,7 @@ export function ServicesSection() {
       title: "Zingueria industrial y domiciliaria",
       slug: "canaletas-bajadas",
       description: "Soluciones en chapa y ventilación: canales sin uniones, babetas, cenefas, cupertinas, conductos y extractores eólicos. Calidad y confianza en cada proyecto.",
-      image: "/zingueria-4.webp",
+      image: "/zingueria-5.webp",
       features: ["Materiales Galvanizados", "Instalación Profesional", "Mantenimiento Incluido"],
       category: "zingueria",
     },
@@ -93,13 +93,13 @@ export function ServicesSection() {
         <div className={`space-y-6 ${index % 2 === 1 ? "lg:col-start-2" : ""}`}>
           {/* Number */}
           <div className="relative">
-            <span
-              className={`text-8xl lg:text-9xl font-bold absolute -top-8 -left-4 lg:-left-8 select-none ${
-                service.category === "zingueria" ? "text-orange-500" : "text-gray-500"
-              }`}
-            >
-              {service.number}
-            </span>
+           <span
+  className={`text-8xl lg:text-9xl font-bold absolute -top-8 -left-4 lg:-left-8 select-none ${
+    service.category === "zingueria" ? "text-[#4ac165]" : "text-gray-500"
+  }`}
+>
+  {service.number}
+</span>
             <div className="relative z-10 pt-8">
               <h3 className="text-3xl lg:text-4xl font-bold text-primary mb-4">{service.title}</h3>
             </div>
@@ -112,13 +112,9 @@ export function ServicesSection() {
           <div className="space-y-3">
             {service.features.map((feature, featureIndex) => (
               <div key={featureIndex} className="flex items-center space-x-3">
-                <div
-                  className={`w-2 h-2 rounded-full flex-shrink-0 ${
-                    service.category === "zingueria" ? "bg-orange-500" : "bg-secondary"
-                  }`}
-                ></div>
-                <span className="text-gray-700 font-medium">{feature}</span>
-              </div>
+    <div className="w-2 h-2 rounded-full flex-shrink-0 bg-[#4ac165]" />
+    <span className="text-gray-700 font-medium">{feature}</span>
+  </div>
             ))}
           </div>
 
@@ -201,7 +197,7 @@ export function ServicesSection() {
 
         <div className="mb-16">
           <h3 className="text-2xl font-semibold text-gray-800 text-center">Zinguería</h3>
-          <div className="w-16 h-0.5 bg-orange-500 mx-auto mt-3"></div>
+          <div className="w-16 h-0.5 bg-[#4ac165] mx-auto mt-3"></div>
         </div>
 
         {/* Zinguería Services */}

@@ -20,8 +20,7 @@ export function HeroSection() {
                 Especialistas en <span className="text-secondary">Techos Metálicos</span> y Zinguería
               </h1>
               <p className="text-xl leading-relaxed hero-text-blue">
-                Nos especializamos en la fabricación y montaje de techos metálicos y de madera, abarcando también los
-                sectores de zinguería y herrería, tanto para proyectos domiciliarios como industriales.
+                Nos especializamos en la fabricación y montaje de techos metálicos y de madera, abarcando también el sector de zinguería, tanto para proyectos domiciliarios como industriales.
               </p>
             </div>
 
