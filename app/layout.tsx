@@ -27,6 +27,11 @@ html {
   --font-mono: ${GeistMono.variable};
 }
         `}</style>
+        <meta property="og:title" content="Luckonst" />
+        <meta property="og:description" content="Luckonst - Estructuras Metálicas y Techos" />
+        <meta property="og:image" content="/logo-redondo.webp" />
+        <meta property="og:url" content="https://luckonst.com/" />
+        
       </head>
       <body>
         {children}
